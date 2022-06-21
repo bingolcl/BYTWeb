@@ -1,10 +1,3 @@
-/**
-* Template Name: Vesperr - v4.7.0
-* Template URL: https://bootstrapmade.com/vesperr-free-bootstrap-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -292,6 +285,14 @@ h1, h2, h3, h4, h5, h6 {
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
+.img-frame{
+  --b: 10px; /* control the size */
+  padding: var(--b);
+  border: calc(2*var(--b)) solid #0000;
+  outline: 1px solid #3498db;
+  outline-offset: calc(-1*var(--b));
+  background: conic-gradient(from 90deg at 1px 1px,#0000 90deg,#3498db 0);
+}
 #hero {
   width: 100%;
   height: 70vh;
@@ -429,36 +430,37 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Clients
+# Divider
 --------------------------------------------------------------*/
-.clients {
+.divider {
   background: #f3f9fd;
   padding: 10px 0;
   text-align: center;
+  height: 40px;
 }
-.clients .col-lg-2 {
+.divider .col-lg-2 {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-.clients img {
+.divider img {
   width: 50%;
   filter: grayscale(100);
   transition: all 0.4s ease-in-out;
   display: inline-block;
   padding: 10px 0;
 }
-.clients img:hover {
+.divider img:hover {
   filter: none;
   transform: scale(1.1);
 }
 @media (max-width: 768px) {
-  .clients img {
+  .divider img {
     width: 40%;
   }
 }
 @media (max-width: 575px) {
-  .clients img {
+  .divider img {
     width: 30%;
   }
 }
@@ -469,25 +471,6 @@ section {
 .about .content h3 {
   font-weight: 600;
   font-size: 26px;
-}
-.about .content ul {
-  list-style: none;
-  padding: 0;
-}
-.about .content ul li {
-  padding-left: 28px;
-  position: relative;
-}
-.about .content ul li + li {
-  margin-top: 10px;
-}
-.about .content ul i {
-  position: absolute;
-  left: 0;
-  top: 2px;
-  font-size: 20px;
-  color: #3498db;
-  line-height: 1;
 }
 .about .content p:last-child {
   margin-bottom: 0;
@@ -513,10 +496,32 @@ section {
   color: #fff;
   text-decoration: none;
 }
-
+.h-6{
+  height: 60% !important;
+}
 /*--------------------------------------------------------------
 # Counts
 --------------------------------------------------------------*/
+.counts .content ul {
+  list-style: none;
+  padding: 0;
+  padding-left: 5px;
+}
+.counts .content ul li {
+  padding-left: 28px;
+  position: relative;
+}
+.counts .content ul li + li {
+  margin-top: 10px;
+}
+.counts .content ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #3498db;
+  line-height: 1;
+}
 .counts {
   padding-top: 0;
 }
@@ -586,6 +591,25 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
+.services .section-list ul {
+  list-style: none;
+  padding: 0;
+}
+.services .section-list ul li {
+  padding-left: 28px;
+  position: relative;
+}
+.services .section-list ul li + li {
+  margin-top: 10px;
+}
+.services .section-list ul i {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  font-size: 20px;
+  color: #3498db;
+  line-height: 1;
+}
 .services .icon-box {
   padding: 30px;
   position: relative;
@@ -989,6 +1013,9 @@ section {
 /*--------------------------------------------------------------
 # Team
 --------------------------------------------------------------*/
+.team span.text-left{
+  text-align: left !important;
+}
 .team .member {
   margin-bottom: 20px;
   overflow: hidden;
