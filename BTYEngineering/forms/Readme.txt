@@ -1,2 +1,2 @@
-Fully working PHP/AJAX contact form script is available in the pro version of the template.
-You can buy it from: https://bootstrapmade.com/vesperr-free-bootstrap-template/
+PHP Contact Form - Reusable Form with Validation
+http://reusableforms.com/d/e1/php-contact-form-with-validation#google_vignette
