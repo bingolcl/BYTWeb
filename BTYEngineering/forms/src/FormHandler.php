@@ -47,21 +47,12 @@ class FormHandler
 		$host = isset($_SERVER['SERVER_NAME'])?$_SERVER['SERVER_NAME']:'localhost';
         $from_email ='forms@'.$host;
    		$this->mailer->setFrom($from_email,'Contact Form',false);  
-
-		//Test
-		   $this->mailer->isSMTP();
-		   $this->mailer->SMTPAuth  =true;
-		   $this->mailer->SMTPSecure ='tls';
-		   $this->mailer->Host='smtp.live.com';
-		   $this->mailer->Port='587';
-		   $this->mailer->Username='lisazhangcanada@hotmail.com';
-		   $this->mailer->Password='Test';
 		//GoDaddy
 		// $this->mailer->isSMTP();
-		// $this->mailer->Host = 'localhost';
-		// $this->mailer->SMTPAuth = false;
-		// $this->mailer->SMTPAutoTLS = false; 
-		// $this->mailer->Port = 25; 
+		// $this->mailer->Host="relay-hosting.secureserver.net";   		
+		// $this->mailer->Port = 25;
+   		// $this->mailer->SMTPAuth = false;
+
 
    		$this->captcha = false;   
 

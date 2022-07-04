@@ -16,11 +16,12 @@ $pp = new FormHandler();
 $validator = $pp->getValidator();
 $validator->fields(['name','email'])->areRequired()->maxLength(50);
 $validator->field('email')->isEmail();
+$validator->field('subject')->maxLength(100);
 $validator->field('message')->maxLength(6000);
 
 
 
-$pp->sendEmailTo('cc23zhang@gmail.com'); // ← Your email here
+$pp->sendEmailTo('bytengineering@gmail.com'); // ← Your email here
 
 echo $pp->process($_POST);
 
