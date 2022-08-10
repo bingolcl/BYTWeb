@@ -525,6 +525,7 @@ iframe.wait-autoplay {
   margin-bottom: 0;
   font-family: arial;
   line-height: 1.4em;
+  background: transparent;
 }
 
 .glightbox-clean .gslide-video {
