@@ -1,0 +1,47 @@
+BYT(4):	rockwell controllogix PLC
+
+BYT(5):	Mitsubishi R-PLC
+
+BYT(9): Mitsubishi servo motor
+
+BYT(11):cognex camera configuration
+
+BYT(12):water treadment plane
+
+BYT(13):siemens s7-300 PLC
+
+BYT(13):sensor
+
+BYT(16):Vennver dryer
+
+BYT(20):saw mill
+
+BYT(22):troubleshooting on Mitsubishi FR-A500 VFD
+
+BYT(23):troubleshooting on Mitsubishi 40pin plug wiring
+
+BYT(27):commisioning on a venner stacker
+
+BYT(28):rockwell powerflex VFD
+
+BYT(30):Mitsubishi VFD panel
+
+BYT(31):wall mount schneider VFD
+
+BYT(32):China CTB VFD
+
+BYT(33):Harvest MV drive
+
+BYT(35):saw mill
+
+BYT(36):Venner clipper and stacker
+
+BYT(37):Venner peeler
+
+BYT(38):commisioning on a venner stacker
+
+
+
+
+
+
